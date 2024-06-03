@@ -286,6 +286,11 @@ return {
     end,
   },
 
+  -- Latex snippets
+  {
+    "evesdropper/luasnip-latex-snippets.nvim",
+  },
+
   -- Ui elements
   {
     "MunifTanjim/nui.nvim",
