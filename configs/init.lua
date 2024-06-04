@@ -38,5 +38,5 @@ vim.schedule(function()
   require "mappings"
 end)
 
-require("luasnip.loaders.from_vscode").lazy_load()
 require("luasnip").config.setup { enable_autosnippets = true }
+require("luasnip.loaders.from_vscode").lazy_load()
