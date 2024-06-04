@@ -300,6 +300,7 @@ return {
       require("luasnip").config.setup { enable_autosnippets = true }
     end,
     init = function()
+      require("luasnip-latex-snippets").setup()
       require("luasnip").config.setup { enable_autosnippets = true }
     end,
   },
