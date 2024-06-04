@@ -37,3 +37,5 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+require("luasnip.loaders.from_vscode").lazy_load()
