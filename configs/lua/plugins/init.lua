@@ -287,7 +287,7 @@ return {
   },
 
   -- More snippets
-  { "rafamadriz/friendly-snippets" },
+  { "Nbobito/friendly-snippets" },
 
   -- EVEN MOAR snippets
   {
